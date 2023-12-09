@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo {
+    width: 55px;
+    float: left;
+    border-radius: 10px 0 10px;
+    margin: 3px 0 0 20px;
+}
+
+.nav-ul li {
+    display: inline-block;
+    padding: 10px;
+}
+
+.nav-ul li a {
+    color: aliceblue;
+    padding: 5px;
+    text-decoration: none;
+}
+
+.nav-ul {
+    background-color: rgb(241, 45, 31);
+    padding: 5px;
+    margin: 0;
+}
+
+.register,
+.product {
+    margin-left: 40%;
+}
+
+.button {
+    margin: 25px;
+    padding: 10px;
+    border-radius: 10px 0 10px;
+    border: none;
+    background-color: rgb(220, 29, 39);
+    color: aliceblue;
+}
+
+.inputBox {
+    display: block;
+    margin: 5px;
+    padding: 10px;
+    width: 300px;
+    border: 2px solid rgb(229, 65, 47);
+    border-radius: 10px 0 10px;
+}
+
+.search-input {
+    width: 300px;
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid rgb(47, 208, 229);
+    border-radius: 10px 0 10px;
+}
+
+.login {
+    margin-left: 30%;
+    margin-top: 100px;
+}
+
+.nav-right {
+    text-align: right;
+}
+
+.invalid-input {
+    color: red;
+    /* margin-top: -20px; */
+    display: block;
+    margin-left: 20px;
+}
+
+.product-list {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.product-list ul li {
+    display: inline-block;
+    border: 1px solid red;
+    padding: 5px;
+    width: 150px;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    background-color: rgb(252, 64, 51);
+}
